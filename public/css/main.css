@@ -1,0 +1,132 @@
+
+.single-result{
+
+    background:white;
+    margin-bottom:10px;
+    border: 1px solid white;
+    padding-left: 500px;
+
+}
+.vehicle-img img{
+    width: 500px;
+    max-width: 100%;
+    height: 100%;
+}
+.single-result a{
+    color: rgb(62, 61, 64);
+
+    font-weight: 700;
+    text-transform: capitalize;
+
+
+}
+.single-result a:hover{
+    color:rgb(62, 61, 64);
+
+}
+.vehicle-trim{
+    font-size: 14px;
+}
+.averavge-price{
+    text-decoration: line-through;
+
+}
+.vehicle-price{
+    font-weight: 700;
+    background-color: #c72931;
+    border-radius: 4px;
+    vertical-align: middle;
+    color:white;
+    padding: 3px 10px 5px 10px;
+    position: relative;
+    display:inline-block;
+    margin-top: 10px;
+}
+.vehicle-price-section li{
+    display: inline-block;
+}
+#condition,
+#mileage,
+#spec,
+#highlights,
+#desc-title{
+    font-size: 11px;
+    font-weight: 700;
+    color: #c72931;
+    text-transform: uppercase;
+}
+#condition-value,
+#mileage-value{
+    font-size: 11px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.condition li,
+.mileage li{
+    display: inline-block;
+}
+#spec-values li,
+#highlight-values li{
+    list-style:circle;
+    font-size: 11px;
+    margin-left: 20px;
+}
+.highlights{
+    margin-left: -50px;
+}
+#small{
+    font-size: 9px;
+}
+
+#loan-calculator{
+    margin-top: 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: default;
+    background-color: #f8f8f8;
+
+}
+.stats-bar{
+    margin-top: 10px;
+    margin-left: 30%;
+}
+.vehicle-stats{
+    border-left: 2px solid rgba(185, 185, 185, 0.94);
+    margin-top: 10px;
+}
+.info-bottom{
+    maring-bottom: 20px;
+}
+.apply-btn a{
+    background-color: rgb(255, 217, 17);
+    font-size: 13px;
+    color:white;
+    text-transform: capitalize;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 0;
+    width: 200px;
+    box-shadow: inset 0 0 20px rgb(120, 120, 120);
+}
+.apply-btn a:hover{
+    background-color:rgb(233, 132, 0);
+}
+.navbar ul li a:active{
+    color:rgb(233, 132, 0);
+}
+.pull-right{
+    margin-top: -200px;
+}
+#delete-btn{
+    color: white;
+    background-color: green;
+    font-family: helvetica,
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
+    border-radius:5px;
+}
+
+#delete-btn:hover{
+    border: 1px solid white;
+}
